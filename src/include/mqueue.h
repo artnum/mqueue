@@ -15,7 +15,7 @@ struct s_MQueueMessage {
 };
 
 #ifndef MQUEUE_HASH_MAP_SIZE
-#define MQUEUE_HASH_MAP_SIZE 256 // 29 // 7829
+#define MQUEUE_HASH_MAP_SIZE 727
 #endif
 
 #define MQUEUE_LOCK_STATS
