@@ -172,9 +172,6 @@ uintptr_t mqueue_get_out(MQueue *q, int id) {
     if (m) {
       if (m == q->out[idx]) {
         q->out[idx] = m->next;
-        if (q->out[idx] != NULL) {
-          q->out[idx] = NULL;
-        }
       } else {
         if (m->next) {
           m->next->previous = m->previous;
